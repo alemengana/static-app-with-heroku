@@ -1,0 +1,31 @@
+{
+	"name": "parle-auth",
+	"version": "1.0.0",
+	"description": "<p align=\"center\">\r   <img src=\"screenshot.png\" width=\"300\" title=\"Screenshot\">\r </p>",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/parle-cl/parle-auth.git"
+	},
+	"keywords": [
+		"Parle",
+		"Parle Auth"
+	],
+	"author": "parle",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/parle-cl/parle-auth/issues"
+	},
+	"homepage": "https://github.com/parle-cl/parle-auth#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"engines": {
+		"node": "12.18.3"
+	}
+}

@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)), url("background-img.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(29, 38, 113, 0.8)), url("background-img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#first-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#first-container .logo {
+  font-family: 'Redressed', cursive;
+  font-size: 128px;
+}
+
+#first-container .parle-title {
+  margin: 0px 0px 10px 0px;
+  font-size: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.firebaseui-provider-sign-in-footer > .firebaseui-tos {
+  color: #ffffff;
+}
+
+.firebaseui-provider-sign-in-footer > .firebaseui-tos .firebaseui-link {
+  color: #fff;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/*Loading*/
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
