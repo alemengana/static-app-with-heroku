@@ -14,9 +14,6 @@ Example: [Firebase Console - Configuration](https://console.firebase.google.com/
 
 ## Installation
 
-Install the Firebase command line tool with `npm install -g firebase-tools` (See
-[docs](https://firebase.google.com/docs/cli/#setup)).
-
 Enable the Auth providers you would like to offer your users in the console, under
 Auth > Sign-in methods.
 
@@ -29,22 +26,24 @@ cd parle-auth
 
 This will clone the repository in the current directory.
 
-Copy `public/sample-config.js` to `public/config.js`:
+Run `npm install` inside parle-auth.
+
+Copy `sample.env` to `.env` :
 
 ```bash
-cp public/sample-config.js public/config.js
+cp sample.env .env
 ```
 
-For `public/config.js` data, you need check Prerequisite comment.
+For `.env` data, you need check Prerequisite comment.
 
-Then copy and paste the Web snippet code found in the console in the `config.js` file.
+Then copy and paste the Web snippet code found in the console in the `.env` file.
 
 Finally, ensure you are in the `parle-auth/` folder, and run:
 ```bash
-firebase serve
+npm run start
 ```
 
-This will start a Firebase server locally at [http://localhost:5000](http://localhost:5000)
+This will start an Express server locally at [http://localhost:5000](http://localhost:5000)
 
 ## Note
 
